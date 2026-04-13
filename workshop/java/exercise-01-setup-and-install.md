@@ -28,7 +28,7 @@ Before you can run any upgrade, your environment needs three things: a signed-in
 ## Step 2 — Install the GitHub Copilot Modernization Extension
 
 1. Open the **Extensions** view (`Ctrl+Shift+X`)
-2. Search for **GitHub Copilot modernization**
+2. Search for **GitHub Copilot modernization** (https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure)
 3. Select the extension published by Microsoft (`vscjava.migrate-java-to-azure`)
 4. Click **Install**
 5. **Restart VS Code** — the extension requires a full restart to activate
