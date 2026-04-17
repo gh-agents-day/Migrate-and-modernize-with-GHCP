@@ -28,7 +28,7 @@ The output is a `plan.md` file that lists the source/target JDK versions and eve
 Copy and paste the following prompt into the chat:
 
 ```
-Upgrade project to Java 21 and Spring Boot 3.2 using Java upgrade tools
+Upgrade project to Java 21 and Spring Boot 3.2 using Java upgrade tools, provide the detailed upgrade plan
 ```
 
 > **Tip**: For a JDK-only upgrade without framework changes, use:
