@@ -46,11 +46,13 @@ Choose one of the following sample repositories based on your preferred build to
 
 Copy and paste the following prompt into the chat:
 
-```
+
 Clone the Maven sample repository for the Java upgrade exercise:
+
   git clone https://github.com/UW-Madison-DoIT/uportal-messaging
+  
 Open the cloned folder in VS Code and confirm the project structure.
-```
+
 
 > **Tip**: If using Gradle, only Gradle wrapper version 5+ is supported. The Kotlin DSL is not supported.
 

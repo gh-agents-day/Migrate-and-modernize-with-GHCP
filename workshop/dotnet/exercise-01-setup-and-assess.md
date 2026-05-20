@@ -30,12 +30,11 @@ This gives you a complete picture of the migration scope before a single line of
 
 Copy and paste the following prompt into the chat:
 
-```
+
 Clone the dotnet migration copilot samples repository and open the
 Contoso University solution in VS Code:
 
   git clone https://github.com/Azure-Samples/dotnet-migration-copilot-samples
-```
 
 In VS Code, open the **Contoso University** solution folder from the cloned repository.
 
