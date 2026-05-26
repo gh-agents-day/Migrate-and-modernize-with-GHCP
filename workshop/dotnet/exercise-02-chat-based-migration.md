@@ -31,7 +31,7 @@ GitHub Copilot modernization for .NET exposes a **custom agent** called `Moderni
 Copy and paste the following prompt into the chat:
 
 ```
-migrate from MSMQ to Azure service bus
+create the migration plan for moving from MSMQ to Azure Service Bus,
 ```
 
 Or choose a scenario matching the Contoso University project:
