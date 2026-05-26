@@ -12,9 +12,6 @@ GitHub Copilot modernization for .NET exposes a **custom agent** called `Moderni
 - Azure service equivalents for common .NET dependencies (e.g., RabbitMQ → Azure Service Bus, SQL Server → Azure SQL)
 - Microsoft best practices for .NET-to-Azure migrations
 - Predefined migration tasks for the most common enterprise scenarios
-
-The agent uses **Claude Sonnet 4.5** by default for best results. It orchestrates the full migration lifecycle — planning, code changes, validation, and summary — from a single natural language prompt.
-
 ---
 
 ## Step 1 — Open Copilot Chat and Select the Custom Agent
@@ -34,7 +31,7 @@ The agent uses **Claude Sonnet 4.5** by default for best results. It orchestrate
 Copy and paste the following prompt into the chat:
 
 ```
-migrate from rabbitmq to Azure service bus
+create the migration plan for moving from MSMQ to Azure Service Bus
 ```
 
 Or choose a scenario matching the Contoso University project:
@@ -61,7 +58,7 @@ The agent may request permission to use knowledge base tools in the **Model Cont
 
 The `Modernize-DotNet` agent will:
 1. Analyze your code for the source technology
-2. Create `plan.md` in `.github/appmod/code-migration/<branch-name>/`
+2. Create `plan.md`
 3. Begin planning code, dependency, and configuration changes
 
 At each step, click **Continue** to proceed and **Keep** to accept changes.
